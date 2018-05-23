@@ -107,9 +107,9 @@ blockCoin.createTransaction(new Transaction('address2', 'address1', 50));
 console.log('\n Starting the miner...');
 blockCoin.minePendingTransactions('dougs-address');
 
-console.log('\n Dougs balance is', blockCoin.getBalanceOfAddress('dougs-address'));
+console.log('\n Balance for Doug is', blockCoin.getBalanceOfAddress('dougs-address'));
 
 console.log('\n Starting the miner again...');
 blockCoin.minePendingTransactions('dougs-address');
 
-console.log('\n Dougs balance is', blockCoin.getBalanceOfAddress('dougs-address'));
+console.log('\n Balance for Doug is', blockCoin.getBalanceOfAddress('dougs-address'));
